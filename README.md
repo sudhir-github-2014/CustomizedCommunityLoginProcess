@@ -6,6 +6,7 @@ This will also include custom Forget/Reset Password feature.
 
 The features will be implemented in agile fashion - multiple iterations.
 
+Note: Watch out the repository "Wiki" tab for the community url and registration page view.
 
 TO-DO LIST::
 
