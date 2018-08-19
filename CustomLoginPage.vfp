@@ -1,0 +1,44 @@
+<apex:page docType="html-5.0" controller="CustomLoginController" showHeader="false" sidebar="false" standardStylesheets="false">
+    <apex:stylesheet value="{!URLFOR($Resource.bootstrap, 'css/bootstrap.min.css')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.bootstrap, 'js/bootstrap.min.js')}"/>
+    <style>
+        .Absolute-Center.is-Responsive {
+          width: 50%; 
+          height: 50%;
+          min-width: 200px;
+          max-width: 400px;
+          padding: 40px;
+        }
+    </style>
+    <div class="Absolute-Center is-Responsive">
+    <apex:form styleClass="form-horizontal">
+      <fieldset>
+        <div id="legend">
+          <legend class=""></legend>
+        </div>
+        <div>
+          <!-- Username -->
+          <apex:outputLabel value="Email" styleClass="col-lg-2 control-label" for="email"/>
+          <div>
+              <apex:inputText value="{!username}" id="email" styleClass="form-control" />
+          </div>
+        </div>
+        <div>
+          <!-- Password-->
+          <apex:outputLabel value="Password" styleClass="col-lg-2 control-label" for="password"/>
+          <div>
+            <apex:inputSecret id="password" value="{!password}" styleClass="form-control" />
+          </div>
+        </div>
+        <div>
+          <!-- Button -->
+          <div></div> <br/>
+          <div>
+            <apex:commandButton action="{!login}" styleClass="btn btn-success" value="Login"/>
+          </div>
+        </div>
+      </fieldset>
+    </apex:form>
+    </div>
+
+</apex:page>
