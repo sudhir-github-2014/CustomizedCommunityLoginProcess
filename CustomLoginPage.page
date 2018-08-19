@@ -34,8 +34,9 @@
           <!-- Button -->
           <div></div> <br/>
           <div>
-            <apex:commandButton action="{!login}" styleClass="btn btn-success" value="Login"/>
-          </div>
+            <apex:commandButton action="{!login}" styleClass="btn btn-success" value="Login"/> &nbsp; &nbsp;
+            <apex:commandButton action="{!forgetPassword}" styleClass="btn btn-success" value="Forget Password"/>
+        </div>
         </div>
       </fieldset>
     </apex:form>
