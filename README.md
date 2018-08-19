@@ -1,4 +1,4 @@
-# CustomizedCommunityLoginProcess
+# CustomizedCommunityLoginProcess - Currently "In Progress"
 
 This includes Community's redesigned custom registration page, login page, landing or welcome page.
 
